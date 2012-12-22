@@ -1366,10 +1366,10 @@ void GameView::OnKeyPress(int key, Uint16 character, bool shift, bool ctrl, bool
 			c->AdjustBrushSize(-1, !alt, shiftBehaviour, ctrlBehaviour);
 		break;
 	case 'i':
-		if(ctrl)
-			//c->Install();
-		else
-			c->InvertAirSim();
+		/*if(ctrl)
+			c->Install();
+		else*/
+		c->InvertAirSim();
 		break;
 	}
 
