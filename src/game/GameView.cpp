@@ -1367,7 +1367,7 @@ void GameView::OnKeyPress(int key, Uint16 character, bool shift, bool ctrl, bool
 		break;
 	case 'i':
 		if(ctrl)
-			c->Install();
+			//c->Install();
 		else
 			c->InvertAirSim();
 		break;
