@@ -1,4 +1,4 @@
-the-powder-toy (84.2-1.1) precise; urgency=low
+the-powder-toy (84.2-1.1) unstable; urgency=low
 
   * debian/patches/remove-updater.patch: added DEP3-compliant patch tags
 
